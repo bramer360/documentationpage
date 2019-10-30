@@ -1,0 +1,74 @@
+header {
+  font-size: 30px;
+}
+
+p {
+  font-size: 16;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+}
+div {
+  align-items: center;
+}
+.right {
+display: flex;
+flex-direction: row-reverse;
+}
+
+.left {
+display: flex;
+
+}
+
+#img {
+height: auto;
+  max-width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+#concept{
+  height:100vh;
+}
+
+#exterior{
+  height:100vh;
+}
+
+#interior{
+  height:100vh;
+}
+
+#engine{
+  height:100vh;
+}
+
+#pdk{
+  height:100vh;
+}
+
+#pasm{
+  height:100vh;
+}
+
+@media screen and (max-width:600px) {
+  body {
+    background-color: silver; }
+  }
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  background-color: grey;
+  opacity: .5;
+  align-items: center;
+  margin: auto;
+}
